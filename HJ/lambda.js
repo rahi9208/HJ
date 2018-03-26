@@ -8,7 +8,6 @@ exports.handler = function (event, context, callback) {
 	});
 }
 
-
 function promiseTest() {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
